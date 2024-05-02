@@ -1,12 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my page</title>
-    <p>Homage to the internet as it used to be - <a href="about.html">about</a></p>
-</head>
-<body>
+<html><head><base href="https://mandyschippers.github.io"><title>Welcome to Fire and Flux</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700;800;900&display=swap');
     
-</body>
-</html>
+    body {
+      font-family: 'Alegreya Sans', sans-serif;
+      background-color: #1a1a1d;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav {
+      background-color: #222;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    nav h1 {
+      font-size: 2rem;
+      font-weight: 900;
+      margin: 0;
+      letter-spacing: 2px;
+      text-shadow: 0 0 10px rgba(255, 105, 180, 0.8);
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    nav li {
+      margin-left: 1rem;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      transition: color 0.2s ease-in-out;
+    }
+    
+    nav a:hover {
+      color: #ff69b4;
+    }
+    
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-top: 2rem;
+      color: #ff69b4;
+      text-shadow: 0 0 10px rgba(255, 105, 180, 0.8);
+    }
+    
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    
+    footer {
+      background-color: #222;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    
+    @keyframes flicker {
+      0% { opacity: 0.5; }
+      50% { opacity: 1; }
+      100% { opacity: 0.5; }
+    }
+    
+    .flicker {
+      animation: flicker 0.5s infinite alternate;
+    }
+    </style>
+    </head>
+    
+    <body>
+      <nav>
+        <h1>Fire <span class="flicker">&</span> Flux.com</h1>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/projects">Projects</a></li>
+        </ul>
+      </nav>
+    
+      <main>
+        <h2>Welcome to the Pyro-Singularity</h2>
+        <p>In a world where technology and chaos collide, Fire and Flux.com stands as a beacon of innovation and disruption. We are a collective of digital pyromancers, harnessing the raw power of code and data to forge a new reality – one built upon the ever-shifting foundations of digital fire and flux.</p>
+    
+        <h2>Shaping the Flames of Progress</h2>
+        <p>Our <a href="/projects">projects</a> are more than mere lines of code; they are living, breathing manifestations of our passion for pushing the boundaries of what's possible. From AI-driven generative art that dances like wildfire across digital canvases, to decentralized applications that challenge the status quo, we embrace the chaos and let it fuel our creativity.</p>
+    
+        <p>Join us as we dive headfirst into the <a href="/community">community</a> of like-minded rebels, where ideas spark and ignite into blazing revolutions. Here, we don't just talk about changing the world; we set it ablaze with our relentless pursuit of progress.</p>
+    
+        <h2>The Crucible of Innovation</h2>
+        <p>At Fire and Flux.com, we don't merely build; we transmute. Our alchemists take the raw materials of code, data, and imagination, and forge them into digital marvels that defy conventional wisdom. From blockchain-powered ecosystems that disrupt traditional power structures, to immersive virtual landscapes that blur the line between reality and fantasy, we are the architects of a new digital renaissance.</p>
+    
+        <p>So, are you ready to embrace the chaos? To let the flames of progress consume you and emerge reborn as a master of the pyro-singularity? Then join us, and let's set the world ablaze with innovation.</p>
+      </main>
+    
+      <footer>
+        <p>&copy; Fire and Flux.com</p>
+      </footer>
+    </body>
+    </html>
